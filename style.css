@@ -1,0 +1,429 @@
+/* Paleta de cores: https://colorhunt.co/palette/1e03420e46a39ac8cde1f7f5 */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap');
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+text-decoration: none;
+
+}
+
+html{
+
+min-height: 100%;
+
+background-image: url("img/pexels-vividcafe-1920.jpg");
+
+background-size: cover;
+
+background-position: center;
+
+font-family: 'Josefin Sans', sans-serif;
+
+font-size: medium;
+
+}
+
+.cabecalho{
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+justify-content: space-around;
+
+padding: 20px;
+
+background-color: rgba(30, 3, 66, 0.752);
+
+height: 140px;
+
+}
+
+.logotipo{
+
+width: 560px;
+
+max-width: 75%;
+
+margin: 0 auto 100px auto;
+
+}
+
+.menu{
+
+display: flex;
+
+gap: 80px;
+
+}
+
+.menu-item{
+
+font-size: 18px;
+
+font-weight: 300;
+
+padding: 10px;
+
+}
+
+.menu-item:hover, .botao{
+
+cursor: pointer;
+
+}
+
+#inscricao{
+
+border-radius: 10px;
+
+background-color: rgb(119, 82, 254);
+
+color: #fff;
+
+padding: 10px;
+
+border: none;
+
+}
+
+#inscricao:hover{
+
+background-color: rgb(194, 217, 255);
+
+color: #000;
+
+}
+
+.conteudo{
+
+/*margin: auto;
+
+margin-bottom: 150px;
+
+display: block;
+*/
+width: 60%;
+
+text-align: center;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+
+color: rgb(225, 247, 245);
+
+/*margin-top: 10%;
+
+margin-left: 10%;*/
+
+}
+
+.conteudo-principal{
+
+border-radius: 20px;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: space-around;
+
+padding: 40px;
+
+background-color: rgb(0,0,0, 0.652);
+
+box-shadow: 2px 2px 3px #010101;
+
+}
+
+.primeiro-texto{
+
+font-size: 3em;
+
+font-weight:bold;
+
+}
+
+.segundo-texto{
+
+font-size: 1.8em;
+
+font-weight: 400;
+
+margin-top: 10px;
+
+margin-bottom: 100px;
+
+}
+
+.localiza {
+  color: rgb(225, 247, 245);
+  padding: 20px 0 0 0;
+  font-size: 1em;
+}
+
+.copy {
+  font-size: 0.8em;
+  font-style: italic;
+  color: rgb(225, 247, 245);
+  padding: 40px 0 0 0;
+}
+
+.copy span {
+  font-size: 1.2em;
+}
+
+.localiza a {
+  color: rgb(225, 247, 245);
+  border-bottom: 1px dotted rgb(225, 247, 245);
+}
+
+.localiza a:hover {
+  color: rgb(205, 227, 225);
+  border-bottom: 1px dotted rgb(205, 227, 225);
+}
+
+.botao{
+
+font-family:'Josefin Sans', sans-serif;
+
+font-weight: 400;
+
+font-size: 18px;
+
+width: 220px;
+
+height: 50px;
+
+margin-top: 7%;
+
+border-radius: 10px;
+
+background-color: rgb(119, 82, 254);
+
+color: #fff;
+
+border: none;
+
+}
+
+.botao:hover{
+
+background-color: rgb(194, 217, 255);
+
+color: #000;
+
+}
+
+
+.botoes {
+	margin: auto;
+}
+
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 2em;
+  height: 2em;
+  margin-right: 0;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+/*
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}*/
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+/*.resp-sharing-button--whatsapp {
+  background-color: #1fad53
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #ec6c6b
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #ec6c6b
+}
+*/
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+/*
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}*/
+/*
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}*/
+
+.resp-sharing-button--telegram {
+  background-color: #54A9EB;
+}
+
+.resp-sharing-button--telegram:hover {
+  background-color: #4B97D1;}
+
+footer {
+  display: block;
+  position: fixed;
+  top: 100%;
+  width: 100%;
+}
